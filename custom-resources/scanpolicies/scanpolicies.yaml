@@ -1,6 +1,5 @@
 #@ load("@ytt:data", "data")
-#@ if/end hasattr(data.values, "scanpolicy") and data.values.scanpolicy == "snyk":
----
+#@ if/end hasattr(data.values, "scanpolicy") and data.values.scanpolicy == "scan-policy-free":
 ---
 apiVersion: scanning.apps.tanzu.vmware.com/v1beta1
 kind: ScanPolicy
@@ -49,6 +48,9 @@ spec:
       not isSafe(vuln)
       msg = sprintf("CVE %s %s %s", [comp.name, vuln.id, ratings])
     }
+---
+#@ load("@ytt:data", "data")
+#@ if/end hasattr(data.values, "scanpolicy") and data.values.scanpolicy == "scan-policy-critical":
 ---
 apiVersion: scanning.apps.tanzu.vmware.com/v1beta1
 kind: ScanPolicy
