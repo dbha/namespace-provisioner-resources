@@ -5,10 +5,10 @@ apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
   name: java-tests
+  namespace: #@ data.values.name
   labels:
     apps.tanzu.vmware.com/pipeline: test     # (!) required
     apps.tanzu.vmware.com/language: java
-  namespace: #@ data.values.name  
 spec:
   params:
     - name: source-url        # (!) required
