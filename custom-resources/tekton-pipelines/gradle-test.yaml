@@ -1,34 +1,34 @@
----
-apiVersion: tekton.dev/v1beta1
-kind: Pipeline
-metadata:
-  name: java-tests
-  labels:
-    apps.tanzu.vmware.com/pipeline: test     # (!) required
-    apps.tanzu.vmware.com/language: java
-#  namespace: demo-app
-spec:
-  params:
-    - name: source-url        # (!) required
-    - name: source-revision    # (!) required
-  tasks:
-    - name: java-tests
-      params:
-        - name: source-url
-          value: $(params.source-url)
-        - name: source-revision
-          value: $(params.source-revision)
-      taskSpec:
-        params:
-          - name: source-url
-          - name: source-revision
-        steps:
-          - name: java-tests
-            image: harborapp.dha-tkgdemo.net/library/gradle:jdk11
-            script: |-
-              cd `mktemp -d`
+# ---
+# apiVersion: tekton.dev/v1beta1
+# kind: Pipeline
+# metadata:
+#   name: java-tests
+#   labels:
+#     apps.tanzu.vmware.com/pipeline: test     # (!) required
+#     apps.tanzu.vmware.com/language: java
+# #  namespace: demo-app
+# spec:
+#   params:
+#     - name: source-url        # (!) required
+#     - name: source-revision    # (!) required
+#   tasks:
+#     - name: java-tests
+#       params:
+#         - name: source-url
+#           value: $(params.source-url)
+#         - name: source-revision
+#           value: $(params.source-revision)
+#       taskSpec:
+#         params:
+#           - name: source-url
+#           - name: source-revision
+#         steps:
+#           - name: java-tests
+#             image: harborapp.dha-tkgdemo.net/library/gradle:jdk11
+#             script: |-
+#               cd `mktemp -d`
 
-              wget -qO- $(params.source-url) | tar xvz
-              chmod +x ./mvnw
-              # ./mvnw clean test -V --no-transfer-progress
-              echo " gradle Test SKip OK!!"
+#               wget -qO- $(params.source-url) | tar xvz
+#               chmod +x ./mvnw
+#               # ./mvnw clean test -V --no-transfer-progress
+#               echo " gradle Test SKip OK!!"
