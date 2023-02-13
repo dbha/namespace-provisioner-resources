@@ -14,4 +14,4 @@ data:
     namespaces:
     - name: mytest
       language: java
-      scanpolicy: scan-policy-free
+      scanpolicy: scan-policy
