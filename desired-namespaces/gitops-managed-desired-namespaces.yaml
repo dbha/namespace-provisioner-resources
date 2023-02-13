@@ -15,7 +15,3 @@ data:
     - name: mytest
       language: java
       scanpolicy: scan-policy-free
-    # - name: angular-fe-app
-    #   language: angular
-    # - name: golang-opts
-    #   language: golang
