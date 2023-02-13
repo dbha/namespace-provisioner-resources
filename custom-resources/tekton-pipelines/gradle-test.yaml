@@ -7,12 +7,12 @@ metadata:
   name: java-tests
   namespace: #@ data.values.name
   labels:
-    apps.tanzu.vmware.com/pipeline: test     # (!) required
+    apps.tanzu.vmware.com/pipeline: test
     apps.tanzu.vmware.com/language: java
 spec:
   params:
-    - name: source-url        # (!) required
-    - name: source-revision    # (!) required
+    - name: source-url
+    - name: source-revision
   tasks:
     - name: java-tests
       params:
