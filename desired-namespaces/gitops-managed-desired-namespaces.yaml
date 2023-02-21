@@ -18,7 +18,7 @@ data:
     - name: hae
       language: java
       scanpolicy: scan-policy  
-     - name: rick
+    - name: rick
       language: java
       scanpolicy: scan-policy
     - name: min
