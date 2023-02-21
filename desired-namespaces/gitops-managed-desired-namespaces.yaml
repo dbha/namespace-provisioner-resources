@@ -12,6 +12,6 @@ data:
     #@data/values
     ---
     namespaces:
-    - name: mytest
+    - name: demo
       language: java
       scanpolicy: scan-policy
