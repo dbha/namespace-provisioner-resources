@@ -15,3 +15,12 @@ data:
     - name: demo
       language: java
       scanpolicy: scan-policy
+    - name: hae
+      language: java
+      scanpolicy: scan-policy  
+     - name: rick
+      language: java
+      scanpolicy: scan-policy
+    - name: min
+      language: java
+      scanpolicy: scan-policy       
