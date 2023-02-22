@@ -24,3 +24,6 @@ data:
     - name: min
       language: java
       scanpolicy: scan-policy
+    - name: prod
+      language: java
+      scanpolicy: scan-policy  
