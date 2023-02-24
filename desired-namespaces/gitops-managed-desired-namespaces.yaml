@@ -12,18 +12,12 @@ data:
     #@data/values
     ---
     namespaces:
-    - name: demo
+    - name: tenant1
       language: java
       scanpolicy: scan-policy
-    - name: hae
+    - name: tenant2
       language: java
       scanpolicy: scan-policy  
-    - name: rick
+    - name: tenant3
       language: java
       scanpolicy: scan-policy
-    - name: min
-      language: java
-      scanpolicy: scan-policy
-    - name: prod
-      language: java
-      scanpolicy: scan-policy  
