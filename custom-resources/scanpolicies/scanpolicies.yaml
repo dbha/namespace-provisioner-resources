@@ -16,7 +16,7 @@ spec:
     # notAllowedSeverities := ["Critical","High","UnknownSeverity"] # origin comment
 
     # customization
-    notAllowedSeverities := [] # 허용되지 않는 심각도 추가
+    notAllowedSeverities := [] 
     ignoreSeverities := ["Critical", "High", "Medium", "Low"]
 
     ignoreCves := []
