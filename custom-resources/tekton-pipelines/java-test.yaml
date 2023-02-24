@@ -4,7 +4,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
-  name: java-tests
+  name: developer-defined-tekton-pipeline-java
   namespace: #@ data.values.name
   labels:
     apps.tanzu.vmware.com/pipeline: test
