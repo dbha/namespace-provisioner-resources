@@ -1,4 +1,6 @@
 #@ load("@ytt:overlay", "overlay")
+#@ def grype():
+
 #@ load("@ytt:data", "data")
 #@overlay/match by=overlay.subset({"kind":"ScanTemplate"}),expects="1+"
 ---
