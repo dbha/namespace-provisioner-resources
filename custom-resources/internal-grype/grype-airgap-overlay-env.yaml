@@ -1,0 +1,12 @@
+#@ load("@ytt:overlay", "overlay")
+#@ load("@ytt:data", "data")
+#@overlay/match by=overlay.subset({"kind":"ScanTemplate"}),expects="1+"
+---
+apiVersion: v1
+data:
+  grype-airgap-overlay-secrets.yaml: I0AgbG9hZCgiQHl0dDpvdmVybGF5IiwgIm92ZXJsYXkiKQojQG92ZXJsYXkvbWF0Y2ggYnk9b3ZlcmxheS5zdWJzZXQoeyJraW5kIjoiU2NhblRlbXBsYXRlIn0pLGV4cGVjdHM9IjErIgotLS0Kc3BlYzoKICB0ZW1wbGF0ZToKICAgIGluaXRDb250YWluZXJzOgogICAgICAjQG92ZXJsYXkvbWF0Y2ggYnk9b3ZlcmxheS5zdWJzZXQoeyJuYW1lIjogInNjYW4tcGx1Z2luIn0pLCBleHBlY3RzPSIxKyIKICAgICAgLSBuYW1lOiBzY2FuLXBsdWdpbgogICAgICAgICNAb3ZlcmxheS9tYXRjaCBtaXNzaW5nX29rPVRydWUKICAgICAgICBlbnY6CiAgICAgICAgICAjQG92ZXJsYXkvYXBwZW5kCiAgICAgICAgICAtIG5hbWU6IEdSWVBFX0NIRUNLX0ZPUl9BUFBfVVBEQVRFCiAgICAgICAgICAgIHZhbHVlOiAiZmFsc2UiCiAgICAgICAgICAtIG5hbWU6IEdSWVBFX0RCX0FVVE9fVVBEQVRFCiAgICAgICAgICAgIHZhbHVlOiAidHJ1ZSIKICAgICAgICAgIC0gbmFtZTogR1JZUEVfREJfTUFYX0FMTE9XRURfQlVJTFRfQUdFCiAgICAgICAgICAgIHZhbHVlOiAxMjAwMDBoCg==
+kind: Secret
+metadata:
+  name: grype-airgap-overlay
+  namespace: #@ data.values.name
+type: Opaque
