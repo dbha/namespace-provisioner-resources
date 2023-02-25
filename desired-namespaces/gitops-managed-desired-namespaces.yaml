@@ -23,4 +23,10 @@ data:
       scanpolicy: scan-policy    
     - name: workshops-w01-s003
       language: java
+      scanpolicy: scan-policy
+    - name: workshops-w01-s004
+      language: java
       scanpolicy: scan-policy    
+    - name: workshops-w01-s005
+      language: java
+      scanpolicy: scan-policy 
