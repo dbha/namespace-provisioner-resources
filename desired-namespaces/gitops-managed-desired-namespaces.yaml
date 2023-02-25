@@ -12,21 +12,21 @@ data:
     #@data/values
     ---
     namespaces:
-    - name: tenant1
-      language: java
-      scanpolicy: scan-policy
-    - name: workshops-w01-s001
-      language: java
-      scanpolicy: scan-policy
-    - name: workshops-w01-s002
-      language: java
-      scanpolicy: scan-policy    
-    - name: workshops-w01-s003
-      language: java
-      scanpolicy: scan-policy
-    - name: workshops-w01-s004
-      language: java
-      scanpolicy: scan-policy    
-    - name: workshops-w01-s005
-      language: java
-      scanpolicy: scan-policy 
+    #!- name: tenant1
+    #!  language: java
+    #!  scanpolicy: scan-policy
+    #!- name: workshops-w01-s001
+    #!  language: java
+    #!  scanpolicy: scan-policy
+    #!- name: workshops-w01-s002
+    #!  language: java
+    #!  scanpolicy: scan-policy    
+    #!- name: workshops-w01-s003
+    #!  language: java
+    #!  scanpolicy: scan-policy
+    #!- name: workshops-w01-s004
+    #!  language: java
+    #!  scanpolicy: scan-policy    
+    #!- name: workshops-w01-s005
+    #!  language: java
+    #!  scanpolicy: scan-policy 
