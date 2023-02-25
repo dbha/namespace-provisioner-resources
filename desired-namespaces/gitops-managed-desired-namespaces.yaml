@@ -15,9 +15,6 @@ data:
     - name: tenant1
       language: java
       scanpolicy: scan-policy
-    - name: tenant2
+    - name: workshops-w01
       language: java
       scanpolicy: scan-policy  
-    - name: tenant3
-      language: java
-      scanpolicy: scan-policy
