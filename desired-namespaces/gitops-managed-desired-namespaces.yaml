@@ -12,7 +12,7 @@ data:
     #@data/values
     ---
     namespaces:
-    - name: workshops-session01-w01-s001-grype
+    - name: workshops-session01-w01-s001
       language: java
       scanpolicy: scan-policy
     #!- name: workshops-w01-s001
