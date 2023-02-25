@@ -15,12 +15,3 @@ data:
     - name: tenant1
       language: java
       scanpolicy: scan-policy
-    #!- name: workshops-w01-s001
-    #!  language: java
-    #!  scanpolicy: scan-policy
-    #!- name: workshops-w01-s002
-    #!  language: java
-    #!  scanpolicy: scan-policy    
-    #!- name: workshops-w01-s003
-    #!  language: java
-    #!  scanpolicy: scan-policy    
