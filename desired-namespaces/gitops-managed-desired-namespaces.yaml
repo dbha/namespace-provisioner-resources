@@ -17,7 +17,4 @@ data:
       scanpolicy: scan-policy
     - name: tenant2
       language: java
-      scanpolicy: scan-policy     
-    - name: workshops-session02-w01-s001
-      language: java
       scanpolicy: scan-policy
