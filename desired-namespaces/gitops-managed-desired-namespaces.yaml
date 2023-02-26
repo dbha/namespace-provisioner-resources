@@ -12,4 +12,6 @@ data:
     #@data/values
     ---
     namespaces:
- 
+    - name: tenant1
+      language: java
+      scanpolicy: scan-policy
