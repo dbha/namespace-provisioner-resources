@@ -12,7 +12,7 @@ data:
     #@data/values
     ---
     namespaces:
-    - name: mytest
+    - name: tenant1
       language: java
       scanpolicy: scan-policy
     - name: workshops-session02-w01-s001

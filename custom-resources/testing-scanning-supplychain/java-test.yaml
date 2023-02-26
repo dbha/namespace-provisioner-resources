@@ -4,7 +4,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
-  name: java-tests
+  name: developer-defined-tekton-pipeline-java
   namespace: #@ data.values.name
   labels:
     apps.tanzu.vmware.com/pipeline: test
@@ -26,11 +26,9 @@ spec:
           - name: source-revision
         steps:
           - name: java-tests
-            image: harborapp.dha-tkgdemo.net/library/gradle:jdk11
+            image: harborapp.dha-tkgdemo.net/library/gradle:latest
             script: |-
               cd `mktemp -d`
-
-              wget -qO- $(params.source-url) | tar xvz
-              chmod +x ./mvnw
-              # ./mvnw clean test -V --no-transfer-progress
-              echo " gradle Test SKip OK!!"
+              wget -qO- $(params.source-url) | tar xvz -m
+              pwd
+              echo "Java Test SKIP OK!!"

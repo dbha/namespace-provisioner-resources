@@ -29,7 +29,7 @@ spec:
           - name: source-revision
         steps:
           - name: java-test
-            image: harborapp.dha-tkgdemo.net/library/gradle:jdk11
+            image: taptest.azurecr.io/gradle:jdk11
             script: |-
               cd `mktemp -d`
               wget -qO- $(params.source-url) | tar xvz -m
