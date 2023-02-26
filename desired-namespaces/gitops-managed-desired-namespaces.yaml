@@ -18,6 +18,3 @@ data:
     - name: workshops-session02-w01-s001
       language: java
       scanpolicy: scan-policy
-    - name: workshops-session02-w01-s002
-      language: java
-      scanpolicy: scan-policy      
