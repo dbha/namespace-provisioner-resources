@@ -12,12 +12,4 @@ data:
     #@data/values
     ---
     namespaces:
-    - name: workshops-s001
-      language: java
-      scanpolicy: scan-policy
-    - name: workshops-s002
-      language: java
-      scanpolicy: scan-policy
-    - name: workshops-s003
-      language: java
-      scanpolicy: scan-policy      
+ 
