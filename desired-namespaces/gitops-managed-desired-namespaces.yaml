@@ -15,24 +15,18 @@ data:
     - name: workshop-s001
       scanpolicy: scan-policy
       language: java
-      language: python      
     - name: workshop-s002
       scanpolicy: scan-policy
       language: java
-      language: python
     - name: workshop-s003
       scanpolicy: scan-policy
       language: java
-      language: python
     - name: workshop-s004
       scanpolicy: scan-policy
       language: java
-      language: python
     - name: workshop-s005
       scanpolicy: scan-policy
       language: java
-      language: python
     - name: workshop-s006
       scanpolicy: scan-policy
       language: java
-      language: python  
