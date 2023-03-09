@@ -28,7 +28,7 @@ spec:
       - name: source-revision
       steps:
         - name: python-test
-          image: python:latest
+          image: tapworkshop.azurecr.io/library/python:3
           script: |-
             set -ex
             cd `mktemp -d`

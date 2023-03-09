@@ -26,7 +26,7 @@ spec:
           - name: source-revision
         steps:
           - name: java-tests
-            image: harborapp.dha-tkgdemo.net/library/gradle:latest
+            image: tapworkshop.azurecr.io/library/gradle:jdk11
             script: |-
               cd `mktemp -d`
               wget -qO- $(params.source-url) | tar xvz -m
