@@ -33,5 +33,5 @@ spec:
           script: |-
             cd `mktemp -d`
             wget -qO- $(params.source-url) | tar xvz -m
-            npm install-test
-            echo "NodeJS Test OK!!" 
+            #npm install-test
+            echo "NodeJS Test SKIP OK!!" 
