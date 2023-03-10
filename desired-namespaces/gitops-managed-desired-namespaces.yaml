@@ -24,4 +24,3 @@ data:
       scanpolicy: scan-policy
     - name: workshop-s006
       scanpolicy: scan-policy
-      language: java
