@@ -7,19 +7,17 @@
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
-  name: developer-defined-tekton-pipeline-python
+  name: developer-defined-tekton-pipeline-nodejs
   namespace: #@ data.values.name
   labels:
-    apps.tanzu.vmware.com/pipeline: "test"
-    apps.tanzu.vmware.com/language: "python"
+    apps.tanzu.vmware.com/pipeline: test
+    apps.tanzu.vmware.com/language: nodejs
 spec:
   params:
   - name: source-url
   - name: source-revision
-  workspaces:
-  - name: supplychain-workspace
   tasks:
-  - name: python-test
+  - name: node-test
     params:
     - name: source-url
       value: $(params.source-url)
@@ -30,12 +28,10 @@ spec:
       - name: source-url
       - name: source-revision
       steps:
-        - name: python-test
-          image: tapworkshop.azurecr.io/library/python:3
+        - name: test
+          image: tapworkshop.azurecr.io/library/node:latest
           script: |-
-            set -ex
             cd `mktemp -d`
-            #wget -qO- $(params.source-url) | tar xvz -m
-            #pytest
-            pip install --no-cache-dir -r requirements.txt
-            echo " python Test OK!!"
+            wget -qO- $(params.source-url) | tar xvz -m
+            npm install-test
+            echo "NodeJS Test OK!!" 
