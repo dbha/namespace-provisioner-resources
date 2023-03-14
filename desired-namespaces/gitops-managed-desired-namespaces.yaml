@@ -26,3 +26,11 @@ data:
       scanpolicy: scan-policy
     - name: workshop-s006
       scanpolicy: scan-policy
+    - name: workshop-s007
+      scanpolicy: scan-policy
+    - name: workshop-s008
+      scanpolicy: scan-policy      
+    - name: workshop-s009
+      scanpolicy: scan-policy
+    - name: workshop-s010
+      scanpolicy: scan-policy        
