@@ -34,3 +34,7 @@ data:
       scanpolicy: scan-policy
     - name: workshop-s010
       scanpolicy: scan-policy        
+    - name: workshop-s044
+      scanpolicy: scan-policy
+    - name: workshop-s045
+      scanpolicy: scan-policy           
