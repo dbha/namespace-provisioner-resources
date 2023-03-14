@@ -33,7 +33,73 @@ data:
     - name: workshop-s009
       scanpolicy: scan-policy
     - name: workshop-s010
-      scanpolicy: scan-policy        
+      scanpolicy: scan-policy     
+    - name: workshop-s011
+      scanpolicy: scan-policy
+    - name: workshop-s012
+      scanpolicy: scan-policy
+    - name: workshop-s013
+      scanpolicy: scan-policy
+    - name: workshop-s014
+      scanpolicy: scan-policy
+    - name: workshop-s015
+      scanpolicy: scan-policy
+    - name: workshop-s016
+      scanpolicy: scan-policy
+    - name: workshop-s017
+      scanpolicy: scan-policy
+    - name: workshop-s018
+      scanpolicy: scan-policy      
+    - name: workshop-s019
+      scanpolicy: scan-policy
+    - name: workshop-s020
+      scanpolicy: scan-policy  
+    - name: workshop-s021
+      scanpolicy: scan-policy
+    - name: workshop-s022
+      scanpolicy: scan-policy
+    - name: workshop-s023
+      scanpolicy: scan-policy
+    - name: workshop-s024
+      scanpolicy: scan-policy
+    - name: workshop-s025
+      scanpolicy: scan-policy
+    - name: workshop-s026
+      scanpolicy: scan-policy
+    - name: workshop-s027
+      scanpolicy: scan-policy
+    - name: workshop-s028
+      scanpolicy: scan-policy      
+    - name: workshop-s029
+      scanpolicy: scan-policy
+    - name: workshop-s030
+      scanpolicy: scan-policy  
+    - name: workshop-s031
+      scanpolicy: scan-policy
+    - name: workshop-s032
+      scanpolicy: scan-policy
+    - name: workshop-s033
+      scanpolicy: scan-policy
+    - name: workshop-s034
+      scanpolicy: scan-policy
+    - name: workshop-s035
+      scanpolicy: scan-policy
+    - name: workshop-s036
+      scanpolicy: scan-policy
+    - name: workshop-s037
+      scanpolicy: scan-policy
+    - name: workshop-s038
+      scanpolicy: scan-policy      
+    - name: workshop-s039
+      scanpolicy: scan-policy
+    - name: workshop-s040
+      scanpolicy: scan-policy         
+    - name: workshop-s041
+      scanpolicy: scan-policy 
+    - name: workshop-s042
+      scanpolicy: scan-policy 
+    - name: workshop-s043
+      scanpolicy: scan-policy                                 
     - name: workshop-s044
       scanpolicy: scan-policy
     - name: workshop-s045
