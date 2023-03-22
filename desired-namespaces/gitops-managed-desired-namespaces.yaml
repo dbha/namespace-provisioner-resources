@@ -53,24 +53,4 @@ data:
     - name: workshop-s019
       scanpolicy: scan-policy
     - name: workshop-s020
-      scanpolicy: scan-policy  
-    - name: workshop-s021
-      scanpolicy: scan-policy
-    - name: workshop-s022
-      scanpolicy: scan-policy
-    - name: workshop-s023
-      scanpolicy: scan-policy
-    - name: workshop-s024
-      scanpolicy: scan-policy
-    - name: workshop-s025
-      scanpolicy: scan-policy
-    - name: workshop-s026
-      scanpolicy: scan-policy
-    - name: workshop-s027
-      scanpolicy: scan-policy
-    - name: workshop-s028
-      scanpolicy: scan-policy      
-    - name: workshop-s029
-      scanpolicy: scan-policy
-    - name: workshop-s030
       scanpolicy: scan-policy
