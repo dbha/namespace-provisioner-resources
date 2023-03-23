@@ -44,13 +44,3 @@ data:
       scanpolicy: scan-policy
     - name: workshop-s015
       scanpolicy: scan-policy
-    - name: workshop-s016
-      scanpolicy: scan-policy
-    - name: workshop-s017
-      scanpolicy: scan-policy
-    - name: workshop-s018
-      scanpolicy: scan-policy      
-    - name: workshop-s019
-      scanpolicy: scan-policy
-    - name: workshop-s020
-      scanpolicy: scan-policy
