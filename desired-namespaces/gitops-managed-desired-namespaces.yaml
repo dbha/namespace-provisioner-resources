@@ -15,6 +15,7 @@ data:
     - name: dev-sensors
     - name: main-sensors
     - name: feature-sensors
+    - name: workshop    
     - name: workshop-s001
       scanpolicy: scan-policy
     - name: workshop-s002
